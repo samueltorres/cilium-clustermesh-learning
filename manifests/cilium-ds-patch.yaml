@@ -1,0 +1,10 @@
+spec:
+  template:
+    spec:
+      hostAliases:
+      - ip: 172.18.255.202
+        hostnames:
+        - kind-2.mesh.cilium.io
+      - ip: 172.18.255.201
+        hostnames:
+        - kind-1.mesh.cilium.io

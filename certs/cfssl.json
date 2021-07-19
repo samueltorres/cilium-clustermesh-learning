@@ -1,0 +1,45 @@
+{
+    "signing": {
+      "default": {
+        "expiry": "8760h"
+      },
+      "profiles": {
+        "clustermesh-apiserver-server-cert": {
+          "usages": [
+            "signing",
+            "key encipherment",
+            "server auth",
+            "client auth"
+          ],
+          "expiry": "8760h"
+        },
+        "clustermesh-apiserver-admin-cert": {
+          "usages": [
+            "signing",
+            "key encipherment",
+            "server auth",
+            "client auth"
+          ],
+          "expiry": "8760h"
+        },
+        "clustermesh-apiserver-remote-cert": {
+          "usages": [
+            "signing",
+            "key encipherment",
+            "server auth",
+            "client auth"
+          ],
+          "expiry": "8760h"
+        },
+        "clustermesh-apiserver-client-cert": {
+          "usages": [
+            "signing",
+            "key encipherment",
+            "server auth",
+            "client auth"
+          ],
+          "expiry": "8760h"
+        }
+      }
+    }
+  }

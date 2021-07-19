@@ -1,0 +1,16 @@
+{
+    "CN": "externalworkload",
+    "key": {
+        "algo": "ecdsa",
+        "size": 256
+    },
+    "names": [
+        {
+            "C": "US",
+            "ST": "San Francisco",
+            "L": "CA"
+        }
+    ],
+    "hosts": []
+}
+
